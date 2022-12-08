@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        h1{
+            padding-top: 20px;
+        }
+        #score{
+            padding-bottom: 20px;
+        }
+        button{
+            width: 45px;
+            padding: 5px 0;
+            margin-right: 10px;
+        }
+        span{
+            display: inline-block;
+            width: inherit;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="result">가위바위보</h1>
+    <div id="score">
+        <span class="user">나</span> vs
+        <span class="comp">컴퓨터</span>
+    </div>
+    <div id="game">
+        <button>가위</button>
+        <button>바위</button>
+        <button>보</button>
+    </div>
+</body>
+<script src="./v2.js"></script>
+</html>
