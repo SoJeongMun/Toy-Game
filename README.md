@@ -1,2 +1,2 @@
-# RSP
-### It's clone coding for the Toy Project Rock-paper-scissors game.
+## What is..
+### These are clone coding for famous toy game projects.
