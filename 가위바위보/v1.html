@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>가위바위보</title>
     <style>
         *{
             text-align: center;
@@ -24,19 +24,31 @@
             display: inline-block;
             width: inherit;
         }
+        span{
+            font-weight: bold;
+        }
+        .user{
+            color: salmon;
+        }
+        #video{
+            margin-top: 40px;   
+            display: none;
+        }
     </style>
 </head>
 <body>
     <h1 class="result">가위바위보</h1>
     <div id="score">
-        <span class="user">나</span> vs
-        <span class="comp">컴퓨터</span>
+        나 : <span class="user">??</span> vs <span class="comp">??</span> : 컴퓨터
     </div>
     <div id="game">
         <button>가위</button>
         <button>바위</button>
         <button>보</button>
     </div>
+    <div id="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/h9NV79nsQ_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 </body>
-<script src="./v2.js"></script>
+<script src="./v1.js"></script>
 </html>

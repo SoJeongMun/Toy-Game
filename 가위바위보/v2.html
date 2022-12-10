@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가위바위보</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        h1{
+            padding-top: 20px;
+        }
+        button{
+            font-size: 1rem;
+            padding: 5px 10px;
+            margin-right: 6px;
+        }
+        p{
+            font-size: 1rem;
+            margin-top: 25px;
+            line-height: 1.8;
+        }
+        span{
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: salmon;
+        }
+        .comp{
+            color: cadetblue;
+        }
+        #video{
+            margin-top: 40px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="winner">가위바위보</h1>
+    <div>
+        <button id="scissors">가위</button>
+        <button id="rock">바위</button>
+        <button id="paper">보</button>
+    </div>
+    <div>
+        <p>
+            <u>점수판</u><br/>
+            <span class="user">나</span> vs <span class="comp">컴퓨터</span>
+        </p>
+    </div>
+    <div id="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/h9NV79nsQ_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</body>
+<script src="./v2.js"></script>
+</html>
