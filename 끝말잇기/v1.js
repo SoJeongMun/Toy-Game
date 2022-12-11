@@ -1,7 +1,7 @@
 const h1 = document.querySelector('h1');
 const form = document.querySelector('form');
 const input = document.querySelector('input');
-const word = document.querySelector('.word');
+const word = document.querySelector('span');
 const btn = document.querySelector('button');
 
 function correct(e){
@@ -14,7 +14,7 @@ function correct(e){
         alert('단어를 입력해주세요.');
     } else {
         h1.textContent = '틀렸습니다. 다시 도전해보세요:{';
-        h1.style.color = 'tomato;'
     };
+    input.value = '';
 };
 btn.addEventListener('click', correct);
