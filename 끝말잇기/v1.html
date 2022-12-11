@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>끝말잇기</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1{
+            padding-top: 40px;
+        }
+        p, form{
+            margin-top: 20px;
+        }
+        input, button{
+            padding: 5px;
+        }
+        input{
+            width: 160px;
+            margin-right: 3px;
+        }
+        .noti{
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>끝말잇기</h1>
+    <p>제시어 : <span class="word">공부</span></p>
+    <form onsubmit="correct(e)">
+        <input type="text" placeholder="한글 단어를 입력해주세요.">
+        <button>도전</button>
+    </form>
+    <p class="noti">* Enter키 혹은 button을 눌러 답을 제출해주세요.</p>
+    <script src="./v1.js"></script>
+</body>
+</html>
